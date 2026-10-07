@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "xlinkseditor",
+  "compatibility_date": "2026-09-18",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    {
+      "pattern": "app.allonel.ink",
+      "custom_domain": true
+    }
+  ],
+  "account_id": "cb8f565fc23ce14622a06acf580ce09b"
+}
